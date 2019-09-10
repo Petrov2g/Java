@@ -9,9 +9,14 @@ public class TimeLoop {
 		String a = " Abracadabra";
 		int n = scan.nextInt();
 		
-		for(int i = 1; i <= n; i++) {
+		if(n>=1 && n<=100) {
+			for(int i = 1; i <= n; i++) {
 			System.out.println(i + a);
+			}
+		} else {
+			System.out.println("wait that's illegal!");
 		}
+	
 
 	}
 
